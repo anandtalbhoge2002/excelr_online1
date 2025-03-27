@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>decendent Selector</title>
+    <title>Descendent selector</title>
     <style>
         div small{
             background-color: blueviolet;
@@ -11,19 +11,26 @@
     </style>
 </head>
 <body>
-  <h1>Decendent selector</h1>  
-  <hr>
-  <div>
+    <h1>Descendent selector</h1>
+    <hr>
 
-    <small>this is small text wihich is Selectoed</small>
-    <p>
-        <small>this is small text wihich is Selectoed</small>
-    </p>
-    <small> direct child Selectoed</small>
-    <small>
-        direct child which is selected
-    </small>
-  </div>
-  
+    <div>
+
+        <small> this is direct child which is selected</small>
+
+        <p>
+            <small>this is indirect child which is selceted</small>
+        </p>
+        <small> this is direct child which is selected</small>
+        <small> this is direct child which is selected</small>
+        <span>
+            <small> this is indirect child which is selected</small>
+        </span>
+
+    </div>
+
+
+   
+
 </body>
 </html>
